@@ -18,10 +18,10 @@ int main()
 	
 	DISC = 10;
 	float totalprice;
-	cout << "please enter the quantity :\n";
+	cout << "please enter the quantity :";
 	cin >> quantity;
 	cout << endl;
 	totalprice = (price*quantity)*(100 - DISC) / 100.00;
-	cout << totalprice << endl;
+	cout <<"total price :"<<totalprice << endl;
 	return 0;
 }
