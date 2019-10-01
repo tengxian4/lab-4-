@@ -1,0 +1,41 @@
+
+// ConsoleApplication7.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+void star()
+{
+	cout << "This is lab 4" << endl;
+	cout << "<khaw teng xian>,Do exercise" << endl; 
+
+
+}
+
+
+int main()
+{
+	star();
+	cout << endl;
+	float price;
+
+	price = 9.90;
+
+	cout << "price =" << price << endl;
+
+	int quantity, DISC = 10;
+
+	
+	float totalprice;
+	cout << " please enter quantity:\n;
+
+		cin >> quantity;
+	totalprice = (price*quantity)*(100 - DISC) / 100.00;
+	cout << totalprice << endl;
+
+
+	
+
+	return 0;
+}
